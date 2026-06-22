@@ -1,0 +1,123 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #ff4500, #ff8c00);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.header-container .logo {
+    max-height: 100px;
+    margin-bottom: 15px;
+    filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.2));
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Seções */
+section {
+    background: white;
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #ff4500;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ff8c00;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.historia p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Grid de Camisas */
+.camisas-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.camisa-card {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.camisa-card:hover {
+    transform: translateY(-5px);
+}
+
+.camisa-card img {
+    max-width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: contain;
+}
+
+.camisa-card h3 {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Seção de Jogadores */
+.jogadores-banner {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img-jogadores {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Rodapé */
+footer {
+    background-color: #1a1a1a;
+    color: #999;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    margin-top: 50px;
+}
